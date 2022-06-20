@@ -1,6 +1,6 @@
 # Table of contents
 
-* [右值](README.md)
+* [C++](README.md)
 * [右值](you-zhi.md)
 * [Thread](thread.md)
 * [Mutex & Atomic](mutex-and-atomic.md)
