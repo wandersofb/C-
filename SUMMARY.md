@@ -2,20 +2,20 @@
 
 * [C++](README.md)
 
-## 基本语法
+## 基本语法 <a href="#基本语法" id="基本语法"></a>
 
-* [右值](ji-ben-yu-fa/you-zhi.md)
-* [lambda](ji-ben-yu-fa/lambda.md)
+* [右值](基本语法/右值.md)
+* [lambda](基本语法/lambda.md)
 
-## 奇技淫巧
+## 奇技淫巧 <a href="#奇技淫巧" id="奇技淫巧"></a>
 
-* [算数上的问题](qi-ji-yin-qiao/suan-shu-shang-de-wen-ti.md)
-* [图存储方式](qi-ji-yin-qiao/tu-cun-chu-fang-shi.md)
-* [自定义排序函数](qi-ji-yin-qiao/zi-ding-yi-pai-xu-han-shu.md)
+* [算数上的问题](奇技淫巧/算数上的问题.md)
+* [图存储方式](奇技淫巧/图存储方式.md)
+* [自定义排序函数](奇技淫巧/自定义排序函数.md)
 
-## 多线程
+## 多线程 <a href="#多线程" id="多线程"></a>
 
-* [Thread](duo-xian-cheng/thread.md)
-* [Mutex & Atomic](duo-xian-cheng/mutex-and-atomic.md)
-* [Condition\_variable & Semaphore](duo-xian-cheng/condition\_variable-and-semaphore.md)
-* [Promise & Future](duo-xian-cheng/promise-and-future.md)
+* [Thread](多线程/thread.md)
+* [Mutex & Atomic](多线程/mutex-and-atomic.md)
+* [Condition\_variable & Semaphore](多线程/condition\_variable-and-semaphore.md)
+* [Promise & Future](多线程/promise-and-future.md)

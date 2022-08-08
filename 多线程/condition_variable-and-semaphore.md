@@ -1,7 +1,8 @@
-# Condition\_variable & semaphore
+# Condition\_variable & Semaphore
 
-### condition_variable
-condition_variable 能够阻塞一个线程，直至另一个线程修改共享变量并通知 condition_variable。
+### condition\_variable
+
+condition\_variable 能够阻塞一个线程，直至另一个线程修改共享变量并通知 condition\_variable。
 
 ```cpp
 #include <iostream>
@@ -40,4 +41,3 @@ int main() {
 ```
 
 ### semaphore
-

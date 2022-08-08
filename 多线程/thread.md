@@ -1,6 +1,6 @@
 # Thread
 
-线程在 C++11 之后被引入到 C++ 语言中，包含在 <thread> 中。
+线程在 C++11 之后被引入到 C++ 语言中，包含在 中。
 
 线程创建
 
@@ -31,4 +31,3 @@ t.detach(); // 允许线程从线程句柄中独立开
 std::this_thread::get_id(); // 得到此线程的 ID
 std::this_thread::sleep_for(std::chrono::milliseconds(30)); // 使此线程睡眠
 ```
-

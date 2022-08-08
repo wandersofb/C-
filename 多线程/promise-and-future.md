@@ -2,8 +2,8 @@
 
 std::promise 是一种提供存储值或者异常的设施，一般在初始化时，不知道这个值是多少，之后通过 std::promise 对象所创建的 std::future 对象异步获取结果。
 
-
 当子线程的返回值，主线程需要的等待时。
+
 ```cpp
 void task(std::promise<int> &ret) {
     // 2. 设置值  
@@ -17,7 +17,6 @@ std::thread t(task, std::ref(p));
 
 // 3. 获取值
 std::cout << f.get();
-
 ```
 
 当子线程的参数需要主线程获取，而子线程需要等待。
@@ -37,7 +36,6 @@ std::thread t(task, 1, f_in);
 
 // 1. set value
 p_in.set_value(3);
-
 ```
 
 当多个线程的参数要从主线程中获取
